@@ -48,7 +48,6 @@ class Solution {
         for(int right=0; right<s.length(); right++){
             char ch=s.charAt(right);
             map.put(ch,map.getOrDefault(ch,0)+1);
-            int k=right-left+1;
             while(map.get(ch)>1){
                 char ch1=s.charAt(left);
                 map.put(ch1,map.get(ch1)-1);
@@ -56,9 +55,8 @@ class Solution {
                     map.remove(ch1);
                 }
                 left++;
-                k=right-left+1;
             }
-            max = Math.max(max, k);
+            max = Math.max(max, right-left+1);
         }
         return max;
     }
