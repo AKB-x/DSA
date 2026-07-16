@@ -83,7 +83,18 @@ while (left < right) {
     }
 }
 ```
+## 🧠 Thinking Process
 
+For every Two Pointer problem, ask:
+
+1. What is my current state?
+2. What information can I extract from the current state?
+3. Should I update the answer before changing the state?
+4. Which pointer can be safely discarded?
+5. Why is it safe to discard that pointer?
+6. Move only that pointer and repeat.
+
+> Never move a pointer because it "feels right". Move it only when you can prove that its current position cannot contribute to a better answer.
 ---
 
 ## 📂 Problems Covered
