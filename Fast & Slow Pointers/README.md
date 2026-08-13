@@ -1,73 +1,51 @@
-# 🔄 Linked List Cycle
+# 🐢🐇 Fast & Slow Pointers Pattern
 
-## 📌 Problem
+## 📌 Description
 
-Given the head of a linked list, determine whether the linked list contains a cycle.
+Fast & Slow Pointers is a pointer technique where two pointers traverse a data structure at **different speeds**.
 
-A cycle exists when a node's `next` pointer points to a previously visited node.
-
----
-
-## 🧩 Pattern
-
-**Fast & Slow Pointers (Floyd's Cycle Detection)**
-
----
-
-## 💡 Approach
-
-### Brute Force
-
-Use a `HashSet` to store every visited node.
-
-- If the current node already exists in the set → cycle exists.
-- If we reach `null` → no cycle.
-
-**Time:** `O(n)`  
-**Space:** `O(n)`
-
-### Optimized — Fast & Slow Pointers
-
-Use two pointers:
+Typically:
 
 - `slow` moves **1 step**
 - `fast` moves **2 steps**
 
-If a cycle exists, once both pointers enter the cycle, `fast` gains one position on `slow` every iteration and eventually catches it.
+The difference in their speeds creates a **relative movement** that can reveal structural properties of the data structure.
 
-If `fast` reaches `null`, there is no cycle.
+The pattern is most commonly associated with **Linked Lists**, especially for:
 
----
-
-## 🧠 Algorithm
-
-1. Initialize `slow` and `fast` at `head`.
-2. Move `slow` by one node.
-3. Move `fast` by two nodes.
-4. If `slow == fast`, a cycle exists.
-5. If `fast == null` or `fast.next == null`, no cycle exists.
+- Cycle detection
+- Finding the middle of a linked list
+- Finding the beginning of a cycle
+- Detecting repeated states
+- Problems involving relative positions
 
 ---
 
-## 💻 Java
+# 🎯 When to Use
 
-```java
-public class Solution {
-    public boolean hasCycle(ListNode head) {
+Consider Fast & Slow Pointers when a problem involves:
 
-        ListNode slow = head;
-        ListNode fast = head;
+- Linked Lists
+- Cycles / loops
+- Circular structures
+- Finding the middle
+- Finding a cycle's starting point
+- Repeated states
+- O(1) extra space requirements
+- Traversing a structure without storing visited elements
 
-        while (fast != null && fast.next != null) {
+### 🚨 Strong Trigger
 
-            slow = slow.next;
-            fast = fast.next.next;
+> **Linked List + Cycle / Loop / Repetition + O(1) extra space**
 
-            if (slow == fast) {
-                return true;
-            }
-        }
+→ Immediately consider **Fast & Slow Pointers**.
 
-        return false;
-    }
-}
+---
+
+# 🧠 Core Idea
+
+Instead of using extra memory to remember visited nodes or positions, use two pointers moving at different speeds.
+
+```text
+slow → 1 step
+fast → 2 steps
