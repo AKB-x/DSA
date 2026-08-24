@@ -39,20 +39,11 @@ class Solution {
             int prevNoDelete = noDelete;
             int prevOneDelete = oneDelete;
 
-            noDelete = Math.max(
-                arr[i],
-                prevNoDelete + arr[i]
-            );
+            noDelete = Math.max(arr[i],prevNoDelete + arr[i]);
 
-            oneDelete = Math.max(
-                prevOneDelete + arr[i],
-                prevNoDelete
-            );
+            oneDelete = Math.max(prevOneDelete + arr[i],prevNoDelete);
 
-            ans = Math.max(
-                ans,
-                Math.max(noDelete, oneDelete)
-            );
+            ans = Math.max(ans,Math.max(noDelete, oneDelete));
         }
 
         return ans;
