@@ -473,7 +473,11 @@ with a special case for arrays containing only negative values.
 | # | Problem | Concept | Status |
 |---|---|---|---|
 | 1 | [Maximum Subarray — LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | Basic Kadane | ✅ |
-
+| 2 | [Minimum Sum Subarray — GeeksforGeeks](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1) | Inverted Kadane | ✅ |
+| 3 | [Maximum Product Subarray — LeetCode 152](https://leetcode.com/problems/maximum-product-subarray/) | Max + Min State Kadane | 🟡 |
+| 4 | [Maximum Subarray Sum with One Deletion — LeetCode 1186](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/) | Two-State DP + Kadane | 🟡 |
+| 5 | [Maximum Absolute Sum of Any Subarray — LeetCode 1749](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Maximum + Minimum Kadane | 🟢 |
+| 6 | [Maximum Sum Circular Subarray — LeetCode 918](https://leetcode.com/problems/maximum-sum-circular-subarray/) | Circular Kadane + Maximum/Minimum Kadane | 🟢 |
 
 ---
 
