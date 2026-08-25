@@ -483,21 +483,35 @@ with a special case for arrays containing only negative values.
 
 # 📈 Pattern Progress
 
-    Kadane's Algorithm
+### Kadane's Algorithm
 
-    [████░░░░░░░░░░░░░░░░] 1 Core Question Completed
+[████████████████░░░░] 6 Core Questions Completed
 
 ### Completed
 
-- ✅ Maximum Subarray
+- ✅ Maximum Subarray — LeetCode 53
+- ✅ Minimum Sum Subarray — GeeksforGeeks
+- 🟡 Maximum Product Subarray — LeetCode 152
+- 🟡 Maximum Subarray Sum with One Deletion — LeetCode 1186
+- 🟢 Maximum Absolute Sum of Any Subarray — LeetCode 1749
+- 🟢 Maximum Sum Circular Subarray — LeetCode 918
 
-### Upcoming
+### Key Variations Covered
 
-- ⬜ Maximum Subarray with actual subarray/index tracking
-- ⬜ Maximum Product Subarray
-- ⬜ Maximum Circular Subarray
-- ⬜ Other important Kadane variations from the playlist
+- ✅ Basic Kadane
+- ✅ Minimum Kadane
+- ✅ Maximum + Minimum State
+- ✅ Kadane + Two-State DP
+- ✅ Maximum Absolute Sum
+- ✅ Circular Kadane
 
+### Remaining / Upcoming
+
+- ⬜ Important Kadane variations from the playlist
+- ⬜ Any high-value interview variation that adds a genuinely new concept
+
+> Goal: Understand the pattern and its major variations deeply enough to recognize
+> when Kadane's Algorithm applies, rather than maximizing the number of questions solved.
 
 ---
 
