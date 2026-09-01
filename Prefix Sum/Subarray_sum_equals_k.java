@@ -59,10 +59,7 @@ class Solution {
             }
 
             // Store/update frequency of current prefix
-            map.put(
-                currentPrefix,
-                map.getOrDefault(currentPrefix, 0) + 1
-            );
+            map.put(currentPrefix,map.getOrDefault(currentPrefix, 0) + 1);
         }
 
         return count;
