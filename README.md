@@ -120,9 +120,8 @@ This repository is a work in progress. I continuously add solutions, refine my u
 
 ## 🤝 Connect
 
-- 💼 LinkedIn: [Your LinkedIn URL]
-- 📧 Email: [Your Email]
-
+- 💼 LinkedIn: [Ayush Kumar Behera](https://www.linkedin.com/in/ayush-kumar-behera-057b13293/)
+- 📧 Email: [ayushakb04@gmail.com](mailto:ayushakb04@gmail.com)
 ---
 
 *Focused on understanding the problem, building the solution, and improving with every iteration.*
