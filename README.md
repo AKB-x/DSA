@@ -1,150 +1,128 @@
-# 🧠 DSA Placement Preparation (2026)
+# 🧠 Data Structures and Algorithms
 
-🚀 This repository documents my **Data Structures & Algorithms journey** aimed at cracking **15–20+ LPA product-based companies (off-campus + on-campus)**.
+This repository documents my journey of learning and practicing **Data Structures and Algorithms (DSA)** using Java. It focuses on understanding fundamental concepts, recognizing problem-solving patterns, analyzing complexity, and developing efficient solutions.
 
-> 🎯 Focus: Problem-solving, pattern recognition & interview readiness
-> ⚡ Strategy: Patterns + Consistency + Revision System
-
----
-
-## 🔥 Preparation Strategy
-
-* Solve **8–10 problems daily**
-* Focus on **patterns (not random questions)**
-* Follow **NeetCode 150** on LeetCode
-* Maintain **revision cycle (Day 2, Day 5, Day 10)**
-* Build ability to **solve from scratch without looking**
+> **Focus:** Problem-solving, pattern recognition, algorithmic thinking, and continuous improvement.
 
 ---
 
-## 🧩 Pattern Roadmap
+## 🎯 Learning Objectives
 
-### 🟢 Phase 1 (Core Patterns)
+- Strengthen problem-solving and algorithmic thinking.
+- Understand common DSA patterns and when to apply them.
+- Write clean, efficient, and readable Java solutions.
+- Analyze time and space complexity.
+- Improve through practice, revision, and learning from mistakes.
 
-* Sliding Window
-* Two Pointers
-* Hashing
-* Binary Search
+---
 
-### 🟡 Phase 2 (Intermediate)
+## 🗺️ DSA Roadmap
 
-* Stack & Queue
-* Linked List
-* Recursion & Backtracking
+### 🟢 Fundamentals
 
-### 🔴 Phase 3 (Advanced)
+- Arrays and Strings
+- Hashing
+- Two Pointers
+- Sliding Window
+- Binary Search
+- Linked Lists
+- Stacks and Queues
 
-* Trees
-* Heaps / Priority Queue
-* Graphs (BFS / DFS)
-* Greedy
+### 🟡 Intermediate Concepts
+
+- Recursion and Backtracking
+- Trees and Binary Search Trees
+- Heaps and Priority Queues
+- Greedy Algorithms
+- Prefix Sums
+- Sorting Algorithms
+
+### 🔴 Advanced Concepts
+
+- Graphs (BFS and DFS)
+- Dynamic Programming
+- Tries
+- Advanced Graph Algorithms
+- Other algorithmic patterns and problem-solving techniques
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 DSA-Prep/
- ├── Sliding-Window/
- ├── Two-Pointers/
- ├── Binary-Search/
- ├── Stack-Queue/
- ├── LinkedList/
- ├── Trees/
- ├── Graphs/
+├── Arrays/
+├── Strings/
+├── Hashing/
+├── Sliding-Window/
+├── Two-Pointers/
+├── Binary-Search/
+├── LinkedList/
+├── Stack-Queue/
+├── Recursion-Backtracking/
+├── Trees/
+├── Heaps/
+├── Graphs/
+└── Dynamic-Programming/
 ```
 
-Each folder contains:
-
-* Clean and optimized solutions
-* Pattern-based grouping
-* Interview-focused problems
+*The structure may evolve as I explore additional topics and patterns.*
 
 ---
 
-## 🔁 Revision System (Core of Preparation)
+## 💡 Problem-Solving Approach
 
-| Timeline | Action        |
-| -------- | ------------- |
-| Day 1    | Solve problem |
-| Day 2    | Re-solve      |
-| Day 5    | Re-solve      |
-| Day 10   | Re-solve      |
+For each problem, I aim to understand:
 
-> 📌 Focus on **re-solving**, not re-reading
+- **Pattern:** Which concept or technique applies?
+- **Approach:** How does the solution work?
+- **Complexity:** What are the time and space costs?
+- **Edge Cases:** What inputs could break the solution?
+- **Learning:** What can be improved or applied to similar problems?
 
----
-
-## 🧠 Notes Strategy
-
-For each problem, I maintain:
-
-* Pattern
-* Trigger (when to use)
-* Approach (3–4 lines)
-* Mistakes
-
-❌ No long notes
-❌ No full code
+The goal is to understand the reasoning behind a solution rather than memorize code.
 
 ---
 
+## 🔁 Practice and Revision
 
-## 💻 Platforms Used
+I revisit previously solved problems to strengthen retention and improve my ability to derive solutions independently.
 
-* LeetCode (Primary)
-* GeeksforGeeks (Concepts)
-* NeetCode (Structured List)
+My practice process emphasizes:
 
----
-
-## 🛠 Tech Stack
-
-* Java (Primary Language)
-
----
-
-## 🎯 Goals
-
-* Crack **15–20+ LPA product-based companies**
-* Master **DSA patterns & problem solving**
-* Build strong **core CS fundamentals**
+1. Attempting the problem independently.
+2. Identifying the underlying pattern.
+3. Implementing and testing the solution.
+4. Reviewing mistakes and edge cases.
+5. Revisiting the problem after a suitable interval.
 
 ---
 
-## ⚡ Golden Rules
+## 💻 Platforms and Resources
 
-* ❌ No copy-paste solutions
-* ❌ No passive watching
-* ✅ Always try first (20–25 mins)
-* ✅ Re-solve problems
-* ✅ Focus on understanding patterns
+- [LeetCode](https://leetcode.com/) — Problem-solving practice
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) — Concepts and explanations
+- [NeetCode](https://neetcode.io/) — Structured problem sets and learning resources
 
 ---
 
-## 🚀 Mindset
+## 🛠️ Language
 
-> “I don’t need to remember solutions.
-> I need to rebuild them quickly.”
+- **Java** — Primary language for DSA practice
 
 ---
 
-## 📌 Current Status
+## 📌 Progress
 
-🔥 Currently in **Execution Phase (45-Day Plan)**
+This repository is a work in progress. I continuously add solutions, refine my understanding, revisit earlier problems, and explore new algorithmic techniques.
 
 ---
 
 ## 🤝 Connect
 
-* 💼 LinkedIn: [Add your link]
-* 📧 Email: [Add your email]
+- 💼 LinkedIn: [Your LinkedIn URL]
+- 📧 Email: [Your Email]
 
 ---
 
-## 📜 License
-
-Licensed under MIT License
-
-
-
+*Focused on understanding the problem, building the solution, and improving with every iteration.*
